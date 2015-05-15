@@ -4,6 +4,7 @@ public class Main
     public static void main(String[] args)
     {
         Issues.init();
+        Parties.init();
         
         IssueList list = new WeightedIssueList();
         System.out.println(list);
