@@ -1,9 +1,9 @@
+package realpolitik;
 import java.util.HashMap;
-import java.util.ArrayList;
 
 public class IssueList
 {
-    private HashMap<Issue, Double> issues;
+    protected HashMap<Issue, Double> issues;
     
     public IssueList()
     {
@@ -49,7 +49,7 @@ public class IssueList
         String output = "";
         for (Issue issue : issues.keySet())
         {
-            output += issue.getName() + " \t" + issues.get(issue) + "\n";
+            output += issue.getName() + "\t" + get(issue) + "\n";
         }
         return output;
     }

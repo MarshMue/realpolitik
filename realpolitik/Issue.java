@@ -1,3 +1,4 @@
+package realpolitik;
 import java.util.HashMap;
 
 public class Issue
