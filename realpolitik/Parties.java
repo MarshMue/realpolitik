@@ -10,7 +10,7 @@ public class Parties
     public static Party REPUBLICAN_PARTY;
     public static Party DEMOCRATIC_PARTY;
     public static Party LIBERTARIAN_PARTY;
-    public static Party CONSTIUTIONALIST_PARTY;
+    public static Party CONSTITUTIONALIST_PARTY;
     public static Party INDEPENDENT_PARTY;
     
     public static void init()
